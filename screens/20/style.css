@@ -1,0 +1,45 @@
+.module-content {
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation styles for screen 20 */
+.nav {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.nav button:first-child {
+    margin: 20px 0 0 20px;
+}
+
+.nav button:last-child {
+    margin: 0 20px 20px 0;
+    align-self: flex-end;
+}
+
+.nav button {
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav button:hover {
+    background-color: var(--color-primary-dark);
+}

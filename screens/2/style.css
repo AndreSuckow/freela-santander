@@ -1,0 +1,39 @@
+.module-content {
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation styles for screen 2 */
+.nav {
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    padding: 20px;
+    z-index: 1000;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    flex-direction: column;
+}
+
+.nav button {
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav button:hover {
+    background-color: var(--color-primary-dark);
+}

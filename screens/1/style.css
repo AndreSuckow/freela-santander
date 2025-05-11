@@ -1,0 +1,53 @@
+.module-content {
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    margin-left: 10.5rem;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+    gap: 1.75rem;
+}
+
+/* Navigation styles for screen 1 */
+.content .nav {
+    display: flex;
+    z-index: 1000;
+}
+
+.content .nav button {
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.content .nav button:hover {
+    background-color: var(--color-primary-dark);
+}
+
+h1 {
+    font-size: 5rem;
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+p {
+    max-width: 32rem;
+    font-size: 1.5rem;
+    color: var(--color-white);
+    font-weight: normal;
+    text-align: left;
+}
+
